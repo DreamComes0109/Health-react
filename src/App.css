@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.background-radial-gradient {
+  background-color: hsl(167, 79%, 34%);
+  background-image: radial-gradient(
+      650px circle at 0% 0%,
+      hsl(165, 37%, 59%) 15%,
+      hsl(165, 40%, 50%) 35%,
+      hsl(164, 44%, 48%) 75%,
+      hsl(165, 97%, 30%) 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      1250px circle at 100% 100%,
+      hsl(165, 37%, 45%) 15%,
+      hsl(164, 47%, 44%) 35%,
+      hsl(164, 44%, 49%) 75%,
+      hsl(165, 87%, 29%) 80%,
+      transparent 100%
+    );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.c {
+  fill: none;
+  stroke: rgb(49 196 141);
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.st0 {
+  fill: rgb(49 196 141);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer-bg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 108 78 / var(--tw-bg-opacity));
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.referral-form {
+  border-radius: 50px;
 }
